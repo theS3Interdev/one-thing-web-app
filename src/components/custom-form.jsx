@@ -12,14 +12,14 @@ const Form = ({ thing, handleInput, handleSubmit }) => {
 			>
 				<input
 					type="text"
-					className="w-full appearance-none rounded-md bg-inherit py-2 px-6 text-xl text-slate-800 caret-teal-500 placeholder:text-slate-500 focus:outline-none sm:text-2xl"
-					placeholder="Enter your One Thing"
+					className="w-full appearance-none rounded-md border-none bg-inherit py-2 px-6 text-xl text-slate-800 caret-teal-500 outline-0 placeholder:text-slate-500 focus:outline-0 sm:text-2xl"
+					placeholder="Enter One Thing"
 					autoFocus
 					maxLength="55"
 					value={thing}
 					onInput={handleInput}
 				/>
-				<button className="rounded-md bg-inherit py-2 pr-6 text-slate-800 hover:text-teal-500 focus:text-teal-500 focus:outline-none">
+				<button className="rounded-md bg-inherit py-2 pr-6 text-slate-800 hover:text-teal-500 focus:text-teal-500 focus:outline-0">
 					<ArrowCircleRightIcon className="pointer-events-none h-12 w-12" />
 				</button>
 			</form>
