@@ -13,7 +13,7 @@ const Form = ({ thing, handleInput, handleSubmit }) => {
 				<input
 					type="text"
 					className="w-full appearance-none rounded-md bg-inherit py-2 px-6 text-xl text-slate-800 caret-teal-500 placeholder:text-slate-500 focus:outline-none sm:text-2xl"
-					placeholder="Enter your One Thing"
+					placeholder="Enter One Thing"
 					autoFocus
 					maxLength="55"
 					value={thing}
