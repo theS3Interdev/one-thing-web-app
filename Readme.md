@@ -1,4 +1,4 @@
-# One Thing App
+# One Thing Web App
 
 ## Summary
 
